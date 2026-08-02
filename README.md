@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🇦🇫 KaarYab Afghanistan - Opportunity Finder Platform
+Final Project One-Line Description: KaarYab Afghanistan is a modern opportunity finder platform that helps Afghan youth discover jobs, internships, scholarships, remote work, and skill-building opportunities in one place.
 
-## Getting Started
+⚠️ Note on Data: The data displayed on this platform is clearly marked as "Demo Data" for educational purposes. It does not represent real, active job listings or scholarships.
 
-First, run the development server:
+📖 Project Description
+KaarYab is a modern, responsive web application designed to connect Afghan youth with global and local opportunities. The platform allows users to browse, search, filter, save, and submit opportunities such as jobs, internships, scholarships, online courses, and training programs. Built as a final capstone project, it demonstrates modern React and Next.js development practices, clean architecture, and professional UI/UX design.
 
-```bash
+🎯 Problem It Solves
+Information regarding jobs, scholarships, and training programs in Afghanistan is often scattered across different websites, social media pages, and Telegram groups. This makes it difficult for students and job seekers to find useful opportunities in one place.
+
+KaarYab solves this problem by creating a clean, easy-to-use platform where people can find all these opportunities in one centralized location.
+
+Target Users
+Students and Fresh Graduates
+Job Seekers
+Women looking for remote opportunities
+Organizations that want to share opportunities
+✨ Features
+Core Features
+Opportunity Listing: Browse jobs, internships, scholarships, and remote work.
+Advanced Search & Filter: Search by title, and filter by category, location, and work type (Remote/On-site).
+Dynamic Details Page: Dedicated pages for each opportunity (/opportunities/[id]) with full descriptions, requirements, and apply links.
+Save Feature: Bookmark opportunities to view later (persisted via LocalStorage).
+Add Opportunity Form: A fully validated form using React Hook Form and Zod for organizations to post new opportunities.
+Full CRUD System: Users can Create, Read, Update, and Delete opportunities.
+Interactive Dashboard: Visual statistics of total jobs, scholarships, and remote work using cards and charts.
+Responsive Design: Fully optimized for mobile, tablet, and desktop devices.
+Dark Mode: A robust light/dark mode toggle using next-themes.
+Bonus Features Implemented
+⏳ Deadline Countdown: Shows how many days are left to apply on details pages.
+🚨 Expiring Soon Badge: Highlights opportunities closing within 7 days on cards.
+📊 Data Visualization: Interactive pie charts on the dashboard using Recharts.
+🎬 Framer Motion Animations: Smooth, premium UI transitions and hover effects.
+⭐ Featured Opportunities: Highlighting specific opportunities on the home page.
+🛠️ Technologies Used
+Framework: Next.js (App Router)
+Language: TypeScript
+Styling: Tailwind CSS (v4)
+State Management: React Context API & LocalStorage
+Form Handling: React Hook Form & Zod Validation
+Charts: Recharts
+Animations: Framer Motion
+Icons: Lucide React
+Theming: Next-Themes
+🚀 How to Run Locally
+Follow these steps to set up the project on your local machine.
+
+Prerequisites
+Node.js (v18 or higher)
+npm or yarn
+Installation & Setup
+Clone the repository
+git clone [PASTE_YOUR_GITHUB_REPO_LINK_HERE]cd kaaryab-afghanistan
+Install dependencies
+bash
+
+npm install
+Run the development server
+bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser to see the application.
+📸 Screenshots
+Home Page:
+Home Page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dashboard:
+Dashboard
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Opportunities Page:
+Opportunities Page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Add Opportunity Form:
+Add Opportunity
 
-## Learn More
+🔗 Links
+Live Demo Link: [PASTE_YOUR_VERCEL_DEPLOYMENT_LINK_HERE]
+GitHub Link: [PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE]
+🔮 Future Improvements
+Multi-language Support: Adding English, Dari, and Pashto translations.
+Authentication: User login/signup for personalized dashboards and profiles.
+PDF CV Builder: Allowing users to generate and download their resumes directly from the platform.
+Admin Approval System: Requiring admin approval before newly submitted opportunities go live to the public.
+Email/Contact API Integration: Sending automated email notifications for expiring opportunities or form submissions.
+📝 License & Acknowledgments
+This project was built for educational purposes as a Final Capstone Project.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ for Afghan Youth.
