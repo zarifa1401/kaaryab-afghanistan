@@ -104,6 +104,12 @@ Follow these steps to set up the project on your local machine.
 **Add Opportunity Form:**
 ![Add Opportunity](./public/addOportunety.png)
 
+**About page:**
+![About Page](./public/About.png)
+
+**Contact Page:**
+![Contact Page](./public/Contact.png)
+
 ---
 
 ## 🔗 Links
