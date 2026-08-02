@@ -1,4 +1,4 @@
-```markdown
+<!-- ```markdown -->
 # 🇦🇫 KaarYab Afghanistan - Opportunity Finder Platform
 
 **Final Project One-Line Description:** 
@@ -92,8 +92,6 @@ Follow these steps to set up the project on your local machine.
 
 ## 📸 Screenshots
 
-*(Instructions: Drag and drop your image files right here on the GitHub editor to generate the links)*
-
 **Home Page:**
 ![Home Page](./public/HomePage.png)
 
@@ -110,8 +108,8 @@ Follow these steps to set up the project on your local machine.
 
 ## 🔗 Links
 
-- **Live Demo Link:** [PASTE_YOUR_VERCEL_DEPLOYMENT_LINK_HERE]
-- **GitHub Link:** [PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE]
+- **Live Demo Link:** [https://kaaryab-afghanistan-khaki.vercel.app/]
+- **GitHub Link:** [https://github.com/zarifa1401/kaaryab-afghanistan]
 
 ---
 
