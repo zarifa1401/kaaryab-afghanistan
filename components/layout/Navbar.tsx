@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { useTheme } from 'next-themes';
@@ -11,6 +12,7 @@ const links = [
   { href: '/add-opportunity', label: 'Add Opportunity' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/about', label: 'About' },
+   { href: '/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -21,8 +23,19 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-white">
-          Kaar<span className="text-blue-600">Yab</span>
+        
+        <Link href="/" className="flex items-center gap-2">
+          <Image 
+            src="/logo.jpg" // Path to your logo in the public folder
+            alt="KaarYab Logo"
+            width={32}
+            height={32}
+            className="rounded-md object-contain"
+            priority // Loads the logo faster
+          />
+          <span className="text-xl font-bold text-gray-900 dark:text-white">
+            Kaar<span className="text-blue-600">Yab</span>
+          </span>
         </Link>
 
         {/* Desktop Menu */}
